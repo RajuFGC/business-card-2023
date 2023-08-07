@@ -5,10 +5,31 @@ body {
   justify-content: center;
   align-items: center;
   padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .card {
   background-color: #F8F8F8;
   border-radius: 16px;
   padding: 32px;
 }
-
+.card-name {
+  
+  font-weight: 400;
+  font-size: 36px;
+  margin: 0;
+}
+.card-position {
+  color: #545454;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0;
+}
+.card-description {
+  line-height: 22px;
+  margin: 0;
+}
+.card-link {
+  color: #E20613;
+  text-decoration: none;
+  margin: ;
+}
