@@ -11,6 +11,7 @@ body {
   background-color: #F8F8F8;
   border-radius: 16px;
   padding: 32px;
+  flex-basis: 616px;
 }
 .card-name {
   
@@ -31,5 +32,17 @@ body {
 .card-link {
   color: #E20613;
   text-decoration: none;
-  margin: ;
 }
+.card-content {
+display: flex;
+align-items: flex-start;
+gap: 24px;
+flex-wrap: wrap;
+justify-content: center;
+}
+.card-info {
+  flex-basis: 380px;
+  flex-grow: 1;
+}
+
+
